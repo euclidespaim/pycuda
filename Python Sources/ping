@@ -1,0 +1,16 @@
+import subprocess
+from time import time
+
+time_before = time()
+"""p = subprocess.Popen(["ping.exe","8.8.8.8"], stdout = subprocess.PIPE)
+print (p.communicate()[0])
+
+t = subprocess.Popen(["tracert.exe", "www.yahoo.com"], stdout = subprocess.PIPE)
+print (t.communicate()[0])
+"""
+k = subprocess.Popen(["dir", "C:/Users/Kid/Desktop/up"], stdout = subprocess.PIPE)
+print(k.communicate()[0])
+
+time_after = time()
+print(time_after-time_before)
+

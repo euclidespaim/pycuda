@@ -1,5 +1,3 @@
-import pycuda.autoinit
-import pycuda.driver as drv
 import numpy
 
 from pycuda.compiler import SourceModule

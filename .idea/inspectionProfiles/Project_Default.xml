@@ -12,6 +12,7 @@
       </option>
     </inspection_tool>
     <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <scope name="Problems" level="WEAK WARNING" enabled="false" />
       <option name="ignoredErrors">
         <list>
           <option value="W29" />

@@ -1,0 +1,7 @@
+import subprocess
+
+p = subprocess.Popen(["ping.exe","www.google.com"], stdout = subprocess.PIPE)
+print (p.communicate()[0])
+
+t = subprocess.Popen(["tracert.exe", "www.google.com"], stdout = subprocess.PIPE)
+print (t.communicate()[1])

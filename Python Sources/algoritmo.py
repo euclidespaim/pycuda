@@ -1,19 +1,14 @@
 import gzip
+import bz2
 import subprocess
 import re
 import threading
-from threading import Thread
-
 import time
-
-import zlib
 
 
 class NetworkTest(object):
 
-    threads=[]
-
-    def transmissao(down=int):
+    def transmissao():
         print("Testando transmissao...")
         downl = str(subprocess.getoutput('speedtest-cli --simple'))
         print (downl)
@@ -22,49 +17,44 @@ class NetworkTest(object):
 
         return down
 
-    def compressao(self):
-        try:
-            content = b"Lots of content here"
-            with gzip.open('c:/Users/kid/desktop/up/file.txt.gz', 'wb') as f:
-                f.write(content)
-                print('Compressao de nivel 0 aplicada...')
-        except:
-            print('Algo deu errado!!')
+    def gzipcomp(self):
 
-    def compress(self):
-        try:
-            content = b"Lots of content here"
-            with gzip.open('c:/Users/kid/desktop/up/file.txt.gz', 'wb') as f:
-                f.write(content)
-                print('Compressao de nível 0 aplicada...')
-        except:
-            print('Algo saiu errado aqui!')
+        f_in = open('C:\\Users\Kid\\Desktop\\up\\file.txt', 'rb')
+        f_out = gzip.open('C:\\Users\Kid\\Desktop\\up\\file.txt.gz', 'wb', 9)
+        f_out.writelines(f_in)
+        f_out.close()
+        f_in.close()
+        print('Compressao gzip aplicada...')
 
-def main (transmissao=None, compressao=None, compress=None):
+    def zlibcomp():
+
+        f_in = open('C:\\Users\Kid\\Desktop\\up\\file.txt', 'rb')
+        f_out = bz2.open('C:\\Users\Kid\\Desktop\\up\\file.txt.bz', 'w', 9)
+        f_out.writelines(f_in)
+        f_out.close()
+        f_in.close()
+        print('Compressao zlib aplicada...')
+
+def main (transmissao=None, gzipcomp=NetworkTest):
 
     print ('Realizando testes na rede...')
 
-    t = threading.Thread(name='t', target= transmissao)
-    c1 = threading.Thread(name='c1', target=compressao)
-    c2 = threading.Thread(name='c2', target=compress)
-    t.start()
-
+    t = threading.Thread(name='t', target=transmissao)
     lista = NetworkTest.transmissao()
     print (lista[1])
     test = float(lista[1])
 
     if test < 51:
-        c1.start()
+        c = threading.Thread(name='gzipcomp', target=gzipcomp())
         print (threading.currentThread().getName() , 'Starting')
         time.sleep(2)
         print('Compressao de nivel 1 aplicada...')
     else:
-        c2.start()
+        z = threading.Thread(name='zlibcomp', target=zlibcomp())
         print (threading.currentThread().getName(), 'Starting')
         time.sleep(2)
         print('Compressao de nivel 2 aplicada...')
 
-    return 0
 
 if __name__ == '__main__':
     main()

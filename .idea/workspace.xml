@@ -35,8 +35,8 @@
       <file leaf-file-name="algoritmo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../pyCUDA/Python Sources/algoritmo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="323">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -47,8 +47,8 @@
       <file leaf-file-name="zipping.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../pyCUDA/Python Sources/zipping.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+            <state relative-caret-position="357">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -120,9 +120,9 @@
         <option value="$PROJECT_DIR$/../pyCUDA/Python Sources/threads.py" />
         <option value="$PROJECT_DIR$/../pyCUDA/Python Sources/ping" />
         <option value="$PROJECT_DIR$/../pyCUDA/Python Sources/network.py" />
-        <option value="$PROJECT_DIR$/../pyCUDA/Python Sources/algoritmo.py" />
         <option value="$PROJECT_DIR$/../pyCUDA/Python Sources/gzip.py" />
         <option value="$PROJECT_DIR$/../pyCUDA/Python Sources/zipping.py" />
+        <option value="$PROJECT_DIR$/../pyCUDA/Python Sources/algoritmo.py" />
       </list>
     </option>
   </component>
@@ -451,9 +451,9 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.zipping" />
-        <item index="1" class="java.lang.String" itemvalue="Python.gzip" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pycuda" />
-        <item index="3" class="java.lang.String" itemvalue="Python.algoritmo (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.algoritmo (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gzip" />
+        <item index="3" class="java.lang.String" itemvalue="Python.pycuda" />
         <item index="4" class="java.lang.String" itemvalue="Python.network" />
       </list>
     </recent_temporary>
@@ -528,7 +528,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -631,8 +631,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyCUDA/Python Sources/algoritmo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -641,8 +641,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyCUDA/Python Sources/zipping.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        <state relative-caret-position="357">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

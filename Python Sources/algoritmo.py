@@ -4,6 +4,11 @@ import re
 import threading
 from threading import Thread
 
+import time
+
+import zlib
+
+
 class NetworkTest(object):
 
     threads=[]
@@ -12,12 +17,10 @@ class NetworkTest(object):
         print("Testando transmissao...")
         downl = str(subprocess.getoutput('speedtest-cli --simple'))
         print (downl)
-        '''print([x for x in downl().iterint()])'''
+        '''extract numbers from a string'''
         down = (re.findall(r"[+-]? *(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?", downl))
-        '''upl = subprocess.getoutput('speedtest-cli --csv')'''
 
         return down
-
 
     def compressao(self):
         try:
@@ -38,22 +41,27 @@ class NetworkTest(object):
             print('Algo saiu errado aqui!')
 
 def main (transmissao=None, compressao=None, compress=None):
+
     print ('Realizando testes na rede...')
 
-    t = threading.Thread(name='transmissao', target= transmissao)
-    c1 = threading.Thread(name='compressao', target=compressao)
-    c2 = threading.Thread(name='compress', target=compress)
+    t = threading.Thread(name='t', target= transmissao)
+    c1 = threading.Thread(name='c1', target=compressao)
+    c2 = threading.Thread(name='c2', target=compress)
     t.start()
 
     lista = NetworkTest.transmissao()
     print (lista[1])
     test = float(lista[1])
 
-    if test < 50:
+    if test < 51:
         c1.start()
+        print (threading.currentThread().getName() , 'Starting')
+        time.sleep(2)
         print('Compressao de nivel 1 aplicada...')
     else:
         c2.start()
+        print (threading.currentThread().getName(), 'Starting')
+        time.sleep(2)
         print('Compressao de nivel 2 aplicada...')
 
     return 0

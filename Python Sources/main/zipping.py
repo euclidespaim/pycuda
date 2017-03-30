@@ -4,10 +4,13 @@ import subprocess
 import re
 import threading
 import time
+from tkinter.filedialog import askopenfilename
+
+
 def gzipcomp():
 
-    f_in = open('C:\\Users\Kid\\Desktop\\up\\000001.dcm', 'rb')
-    f_out = gzip.open('C:\\Users\Kid\\Desktop\\up\\000001.dcm.gz', 'wb', 9)
+    f_in = open(askopenfilename(), 'rb')
+    f_out = gzip.open('C:\\Users\Kid\\Desktop\\up\\myarchive.gz', 'wb', 9)
     f_out.writelines(f_in)
     f_out.close()
     f_in.close()
@@ -15,8 +18,8 @@ def gzipcomp():
 
 def zlibcomp():
 
-    f_in = open('C:\\Users\Kid\\Desktop\\up\\000001.dcm', 'rb')
-    f_out = bz2.open('C:\\Users\Kid\\Desktop\\up\\000001.dcm.bz', 'w', 9)
+    f_in = open(askopenfilename(), 'rb')
+    f_out = bz2.open('C:\\Users\Kid\\Desktop\\up\\myarchive.bz', 'w', 9)
     f_out.writelines(f_in)
     f_out.close()
     f_in.close()
@@ -38,10 +41,13 @@ def main():
     print (lista[1])
     test = float(lista[1])
 
-    if test < 49:
+    if test < 55:
         c = threading.Thread(name='gzipcomp', target=gzipcomp())
+        c.start()
+        c.join()
     else:
         z = threading.Thread(name='zlibcomp', target=zlibcomp())
-
+        z.start()
+        z.join()
 if __name__ == '__main__':
     main()

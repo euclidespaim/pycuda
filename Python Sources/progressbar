@@ -1,0 +1,130 @@
+from queue import Queue
+import gtk
+import os
+import threading
+import time
+import zipfile
+
+debug = True
+
+class ProduceToQueue( threading.Thread ):
+    def __init__( self, threadName, queue, window, maximum, zipobj, dirPath ):
+        threading.Thread.__init__( self, name = threadName )
+        self.sharedObject = queue
+        self.maximum = maximum
+        self.zip = zipobj
+        self.dirPath = dirPath
+        self.window = window
+
+        global debug
+
+        if debug:
+            print (self.getName(), "got all params.")
+
+    def run( self ):
+        if debug:
+            print ("Beginning zip.")
+        files = 0
+        parentDir, dirToZip = os.path.split(self.dirPath)
+        includeDirInZip = False
+        #Little nested function to prepare the proper archive path
+        def trimPath(path):
+            archivePath = path.replace(parentDir, "", 1)
+            if parentDir:
+                archivePath = archivePath.replace(os.path.sep, "", 1)
+            if not includeDirInZip:
+                archivePath = archivePath.replace(dirToZip + os.path.sep, "", 1)
+            return os.path.normcase(archivePath)
+        for (archiveDirPath, dirNames, fileNames) in os.walk(self.dirPath):
+            #if debug:
+                #print "Walking path..."
+            for fileName in fileNames:
+                time.sleep( 0.001 )
+                #if debug:
+                    #print "After a small sleep, I'll start zipping."
+                filePath = os.path.join(archiveDirPath, fileName)
+                self.zip.write(filePath, trimPath(filePath))
+                #if debug:
+                    #print "File zipped - ",
+                files = files + 1
+                #if debug:
+                    #print "I now have ", files, " files in the zip."
+                self.sharedObject.put( files )
+            #Make sure we get empty directories as well
+            if not fileNames and not dirNames:
+                zipInfo = zipfile.ZipInfo(trimPath(archiveDirPath) + "/")
+                #some web sites suggest doing
+                #zipInfo.external_attr = 16
+                #or
+                #zipInfo.external_attr = 48
+                #Here to allow for inserting an empty directory.  Still TBD/TODO.
+                outFile.writestr(zipInfo, "")
+
+class ConsumeFromQueue( threading.Thread ):
+    def __init__( self, threadName, queue, window, maximum ):
+        threading.Thread.__init__( self, name = threadName )
+        self.sharedObject = queue
+        self.maximum = maximum
+        self.window = window
+
+        global debug
+
+        if debug:
+            print (self.getName(), "got all params.")
+
+    def run( self ):
+        print ("Beginning progress bar update.")
+        for i in range( self.maximum ):
+            time.sleep( 0.001 )
+            #if debug:
+                #print "After a small sleep, I'll get cracking on those numbers."
+            current = self.sharedObject.get()
+            fraction = current / float(self.maximum)
+            self.window.progress_bar.set_fraction(fraction)
+            #if debug:
+                #print "Progress bar updated."
+
+class MainWindow(gtk.Window):
+    def __init__(self):
+        super(MainWindow, self).__init__()
+        self.connect("destroy", gtk.main_quit)
+        vb = gtk.VBox()
+        self.add(vb)
+        self.progress_bar = gtk.ProgressBar()
+        vb.pack_start(self.progress_bar)
+        b = gtk.Button(stock=gtk.STOCK_OK)
+        vb.pack_start(b)
+        b.connect('clicked', self.on_button_clicked)
+        b2 = gtk.Button(stock=gtk.STOCK_CLOSE)
+        vb.pack_start(b2)
+        b2.connect('clicked', self.on_close_clicked)
+        self.show_all()
+
+        global debug
+
+    def on_button_clicked(self, button):
+        folder_to_zip = "/home/user/folder/with/lotsoffiles"
+        file_count = sum((len(f) + len(d) for _, d, f in os.walk(folder_to_zip)))
+        outFile = zipfile.ZipFile("/home/user/multithreadziptest.zip", "w", compression=zipfile.ZIP_DEFLATED)
+
+        queue = Queue()
+
+        producer = ProduceToQueue("Zipper", queue, self, file_count, outFile, folder_to_zip)
+        consumer = ConsumeFromQueue("ProgressBar", queue, self, file_count)
+
+        producer.start()
+        consumer.start()
+
+        producer.join()
+        consumer.join()
+
+        outFile.close()
+
+        if debug:
+            print ("Done!")
+
+    def on_close_clicked(self, widget):
+        gtk.main_quit()
+
+w = MainWindow()
+gtk.main()

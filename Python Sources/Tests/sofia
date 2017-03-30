@@ -1,0 +1,9 @@
+
+a = input('Digite seu nome: ')
+t = input('Digite 1 ou 2: ')
+s = int(t)
+
+if s < 2:
+    print('Olá: '+a,' Você digitou: '+t)
+else:
+    print ('Você digitou: '+t)

@@ -1,9 +1,9 @@
 from queue import Queue
-import gtk
 import os
 import threading
 import time
 import zipfile
+
 
 debug = True
 

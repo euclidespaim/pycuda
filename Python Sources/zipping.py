@@ -4,11 +4,10 @@ import subprocess
 import re
 import threading
 import time
-
 def gzipcomp():
 
     f_in = open('C:\\Users\Kid\\Desktop\\up\\000001.dcm', 'rb')
-    f_out = gzip.open('C:\\Users\Kid\\Desktop\\up\\000001.dcm.gz', 'wb', 1)
+    f_out = gzip.open('C:\\Users\Kid\\Desktop\\up\\000001.dcm.gz', 'wb', 9)
     f_out.writelines(f_in)
     f_out.close()
     f_in.close()
@@ -21,7 +20,7 @@ def zlibcomp():
     f_out.writelines(f_in)
     f_out.close()
     f_in.close()
-    print('Compressao zlib aplicada...')
+    print('Compressao bz2 aplicada...')
 
 def transmissao():
     print("Testando transmissao...")
@@ -39,7 +38,7 @@ def main():
     print (lista[1])
     test = float(lista[1])
 
-    if test < 51:
+    if test < 49:
         c = threading.Thread(name='gzipcomp', target=gzipcomp())
     else:
         z = threading.Thread(name='zlibcomp', target=zlibcomp())

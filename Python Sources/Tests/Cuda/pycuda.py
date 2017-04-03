@@ -1,8 +1,8 @@
-import pycuda
+from pycuda import compiler
 import pycuda.driver as drv
 import numpy
 
-from pycuda.compiler import SourceModule
+from compiler import SourceModule
 mod = SourceModule("""
 __global__ void multiply_them(float *dest, float *a, float *b)
 {

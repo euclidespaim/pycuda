@@ -5,8 +5,8 @@ temperature = 7
 dewpoint = 3
 
 
-plt.plot(t, temperature, 'red')
-plt.plot(t, dewpoint, 'blue') #appears on same axe
+plt.plot(t, temperature, color='red')
+plt.plot(t, dewpoint, color='blue') #appears on same axe
 plt.xlabel('date')
 plt.title('Temperature & Dew Point')
 

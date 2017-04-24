@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af832a81-9bee-4df7-8327-dc30f5ab7f37" name="Default" comment="">
+<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/Python Sources/Tests/matplotlib/xlim_and_ylim.png" afterPath="" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python Sources/Tests/Compress/algoritmo.py" afterPath="$PROJECT_DIR$/Python Sources/Tests/Compress/algoritmo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python Sources/Tests/Webscraping/request.py" afterPath="$PROJECT_DIR$/Python Sources/Tests/Webscraping/request.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python Sources/Tests/threads_zip.py" afterPath="$PROJECT_DIR$/Python Sources/Tests/threads_zip.py" />
+>>>>>>> 1bbfbbd... Scraping with requests
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,8 +32,8 @@
       <file leaf-file-name="subplot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/subplot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="136">
+              <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding>
                 <element signature="e#68#99#0" expanded="true" />
               </folding>
@@ -34,6 +41,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="subplots.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/subplots.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,11 +49,21 @@
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="47" />
               <folding>
                 <element signature="e#79#110#0" expanded="true" />
+=======
+      <file leaf-file-name="algoritmo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python Sources/Tests/Compress/algoritmo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+>>>>>>> 1bbfbbd... Scraping with requests
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="legend.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/legend.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,11 +71,21 @@
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+=======
+      <file leaf-file-name="threads_zip.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python Sources/Tests/threads_zip.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-590">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+>>>>>>> 1bbfbbd... Scraping with requests
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="annotate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/annotate.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,17 +94,33 @@
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="scraping.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python Sources/Tests/Webscraping/scraping.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+>>>>>>> 1bbfbbd... Scraping with requests
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="styles.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/styles.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="748">
               <caret line="44" column="39" lean-forward="false" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+=======
+      <file leaf-file-name="request.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python Sources/Tests/Webscraping/request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+>>>>>>> 1bbfbbd... Scraping with requests
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#60#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,7 +184,6 @@
         <option value="$PROJECT_DIR$/Python Sources/algoritmo.py" />
         <option value="$PROJECT_DIR$/Python Sources/progress-gtk" />
         <option value="$PROJECT_DIR$/Python Sources/progressbar" />
-        <option value="$PROJECT_DIR$/Python Sources/Tests/threads_zip.py" />
         <option value="$PROJECT_DIR$/Python Sources/zipthread.py" />
         <option value="$PROJECT_DIR$/Python Sources/zipping.py" />
         <option value="$PROJECT_DIR$/Python Sources/main/master.py" />
@@ -165,6 +208,16 @@
         <option value="$PROJECT_DIR$/Python Sources/Tests/matplotlib/styles.py" />
         <option value="$PROJECT_DIR$/Python Sources/Tests/matplotlib/histogram.py" />
         <option value="$PROJECT_DIR$/Python Sources/Tests/webscraping.py" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/Python Sources/Tests/matplotlib/plotly.py" />
+        <option value="$PROJECT_DIR$/Python Sources/Tests/Webscraping/__init__.py" />
+        <option value="$PROJECT_DIR$/Python Sources/Tests/Webscraping/scraping.py" />
+        <option value="$PROJECT_DIR$/Python Sources/Tests/Webscraping/request.py" />
+        <option value="$PROJECT_DIR$/Python Sources/Tests/Webscraping/robobrowser.py" />
+        <option value="$PROJECT_DIR$/Python Sources/Tests/Compress/algoritmo.py" />
+        <option value="$PROJECT_DIR$/Python Sources/Tests/threads_zip.py" />
+>>>>>>> 1bbfbbd... Scraping with requests
       </list>
     </option>
   </component>
@@ -211,6 +264,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -285,7 +339,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,59 +354,96 @@
       <recent name="C:\Users\Kid\PycharmProjects\pyCUDA\Python Sources\Tests\Sol" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.webscraping">
     <configuration default="false" name="subplots" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.threads_zip">
+    <configuration default="false" name="robobrowser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 1bbfbbd... Scraping with requests
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Sources/Tests/matplotlib" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Sources/Tests/Webscraping" />
+>>>>>>> 1bbfbbd... Scraping with requests
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyCUDA" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Sources/Tests/matplotlib/subplots.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Sources/Tests/Webscraping/robobrowser.py" />
+>>>>>>> 1bbfbbd... Scraping with requests
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="legend" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="algoritmo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 1bbfbbd... Scraping with requests
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Sources/Tests/matplotlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Sources/Tests/Compress" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyCUDA" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Sources/Tests/matplotlib/legend.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Sources/Tests/Compress/algoritmo.py" />
+>>>>>>> 1bbfbbd... Scraping with requests
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="styles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="threads_zip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 1bbfbbd... Scraping with requests
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Sources/Tests/matplotlib" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Sources/Tests" />
+>>>>>>> 1bbfbbd... Scraping with requests
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyCUDA" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Sources/Tests/matplotlib/styles.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Sources/Tests/threads_zip.py" />
+>>>>>>> 1bbfbbd... Scraping with requests
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="histogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="request" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 1bbfbbd... Scraping with requests
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -365,12 +455,20 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyCUDA" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Sources/Tests/matplotlib/histogram.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Sources/Tests/Webscraping/request.py" />
+>>>>>>> 1bbfbbd... Scraping with requests
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="webscraping" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="scraping" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 1bbfbbd... Scraping with requests
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -382,7 +480,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyCUDA" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Sources/Tests/webscraping.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Sources/Tests/Webscraping/scraping.py" />
+>>>>>>> 1bbfbbd... Scraping with requests
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -535,6 +637,7 @@
       <method />
     </configuration>
     <list size="5">
+<<<<<<< HEAD
       <item index="0" class="java.lang.String" itemvalue="Python.subplots" />
       <item index="1" class="java.lang.String" itemvalue="Python.legend" />
       <item index="2" class="java.lang.String" itemvalue="Python.styles" />
@@ -548,6 +651,21 @@
         <item index="2" class="java.lang.String" itemvalue="Python.styles" />
         <item index="3" class="java.lang.String" itemvalue="Python.legend" />
         <item index="4" class="java.lang.String" itemvalue="Python.subplots" />
+=======
+      <item index="0" class="java.lang.String" itemvalue="Python.robobrowser" />
+      <item index="1" class="java.lang.String" itemvalue="Python.algoritmo" />
+      <item index="2" class="java.lang.String" itemvalue="Python.threads_zip" />
+      <item index="3" class="java.lang.String" itemvalue="Python.request" />
+      <item index="4" class="java.lang.String" itemvalue="Python.scraping" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.threads_zip" />
+        <item index="1" class="java.lang.String" itemvalue="Python.algoritmo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.scraping" />
+        <item index="3" class="java.lang.String" itemvalue="Python.request" />
+        <item index="4" class="java.lang.String" itemvalue="Python.robobrowser" />
+>>>>>>> 1bbfbbd... Scraping with requests
       </list>
     </recent_temporary>
   </component>
@@ -559,11 +677,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25669643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32445142" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32445142" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38871473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38871473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -571,6 +687,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32445142" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -623,11 +741,12 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Python Sources/Tests/Fibo/fibo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -665,6 +784,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 1bbfbbd... Scraping with requests
     <entry file="file://$PROJECT_DIR$/Python Sources/main/master.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -851,7 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -859,7 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,7 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,21 +993,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/xlim_and_ylim.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/xlim_and_ylim.png" />
     <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/xlim_ylim.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -898,27 +1011,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/subplot.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="425">
           <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding>
             <element signature="e#68#99#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="936">
+          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+>>>>>>> 1bbfbbd... Scraping with requests
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/legend.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+>>>>>>> 1bbfbbd... Scraping with requests
         </state>
       </provider>
     </entry>
@@ -934,11 +1056,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/histogram.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 1bbfbbd... Scraping with requests
         </state>
       </provider>
     </entry>
@@ -946,22 +1073,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="44" column="39" lean-forward="false" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/annotate.py">
+    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/Sol/sofia">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/bs4/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
@@ -976,9 +1098,107 @@
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/plotly.py" />
+    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/Webscraping/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/subplots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="e#79#110#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/legend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+>>>>>>> 1bbfbbd... Scraping with requests
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/annotate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/matplotlib/subplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="e#68#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/Webscraping/robobrowser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/Webscraping/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="e#60#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/Webscraping/scraping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/Compress/algoritmo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Sources/Tests/threads_zip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-590">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 1bbfbbd... Scraping with requests
   </component>
 </project>

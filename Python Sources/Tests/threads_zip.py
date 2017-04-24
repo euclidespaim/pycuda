@@ -1,7 +1,8 @@
-import subprocess
-import threading, zipfile
-import bz2
 import re
+import subprocess
+import threading
+import zipfile
+
 
 class AsyncZip(threading.Thread):
 
@@ -45,7 +46,7 @@ lista = AsyncZip.transmissao()
 print ('Aplicando compressao com base na velocidade de upload da rede:'+lista[2]+' Mbit/s')
 test = float(lista[2])
 
-if test < 6:
+if test < 2:
     AsyncZip.function_zip(0)
     print ('Main program waited until background zip done.')
 else:

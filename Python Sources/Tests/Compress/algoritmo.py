@@ -1,5 +1,6 @@
 import gzip
 import bz2
+import zlib
 import subprocess
 import re
 import threading
@@ -44,7 +45,7 @@ def main (transmissao=None, gzipcomp=NetworkTest):
     print (lista[1])
     test = float(lista[1])
 
-    if test < 51:
+    if test < 60:
         c = threading.Thread(name='gzipcomp', target=gzipcomp())
         print (threading.currentThread().getName() , 'Starting')
         time.sleep(2)

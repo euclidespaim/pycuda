@@ -88,10 +88,10 @@ S_IRWXG = 0o0070  # mask for group permissions
 S_IRGRP = 0o0040  # read by group
 S_IWGRP = 0o0020  # write by group
 S_IXGRP = 0o0010  # execute by group
-S_IRWXO = 0o0007  # mask for others (not in group) permissions
-S_IROTH = 0o0004  # read by others
-S_IWOTH = 0o0002  # write by others
-S_IXOTH = 0o0001  # execute by others
+S_IRWXO = 0o0007  # mask for Others (not in group) permissions
+S_IROTH = 0o0004  # read by Others
+S_IWOTH = 0o0002  # write by Others
+S_IXOTH = 0o0001  # execute by Others
 
 # Names for file flags
 

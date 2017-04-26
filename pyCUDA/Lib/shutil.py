@@ -1121,7 +1121,7 @@ def which(cmd, mode=os.F_OK | os.X_OK, path=None):
         # See if the given file matches any of the expected path extensions.
         # This will allow us to short circuit when given "python.exe".
         # If it does match, only test that one, otherwise we have to try
-        # others.
+        # Others.
         if any(cmd.lower().endswith(ext.lower()) for ext in pathext):
             files = [cmd]
         else:

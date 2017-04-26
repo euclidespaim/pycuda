@@ -23,6 +23,6 @@ browser.back()
 # Look up my favorite song
 browser.follow_link('death on two legs')
 
-# Can also search HTML using regex patterns
+# Can also search html-css using regex patterns
 lyrics = browser.find(class_=re.compile(r'\blyrics\b'))
 lyrics.text         # \n[Verse 1]\nYou suck my blood like a leech...

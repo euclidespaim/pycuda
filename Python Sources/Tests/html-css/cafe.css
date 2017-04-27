@@ -13,13 +13,13 @@ body {
 /** Header styles **/
 
 .header {
-  background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_coffee-bgnd.jpeg");
   height: 400px;
   background-position: center center;
 }
 
 h1 {
-  color: #41292C;
+  color: rgba(2, 93, 140, 0.9);
   font-family: 'Covered By Your Grace', sans-serif;
   font-size: 100px;
   line-height: 76px;
@@ -33,6 +33,7 @@ h1 {
 
 h2 {
   color: #E4BB97;
+  background-color: #AA8EB5;
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
   font-weight: 500;
@@ -56,7 +57,7 @@ li {
 p {
   color: #444444;
   line-height: 32px;
-  font-family: 'Calibri', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 100;
 }

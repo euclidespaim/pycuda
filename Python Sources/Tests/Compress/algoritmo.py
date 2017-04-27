@@ -5,6 +5,7 @@ import subprocess
 import re
 import threading
 import time
+from tkinter.filedialog import *
 
 
 class NetworkTest(object):
@@ -18,25 +19,27 @@ class NetworkTest(object):
 
         return down
 
-    def gzipcomp(self):
-
-        f_in = open('C:\\Users\Kid\\Desktop\\up\\file.txt', 'rb')
-        f_out = gzip.open('C:\\Users\Kid\\Desktop\\up\\file.txt.gz', 'wb', 9)
+    def gzipcomp():
+        print('Iniciando compressão gzip...')
+        f_in = open(askopenfilename(), 'rb')
+        f_out = gzip.open('C:\\Users\Kid\\Desktop\\up\\Archive.gz', 'wb', 9)
         f_out.writelines(f_in)
         f_out.close()
         f_in.close()
         print('Compressao gzip aplicada...')
+        return  f_out
 
     def zlibcomp():
-
-        f_in = open('C:\\Users\Kid\\Desktop\\up\\file.txt', 'rb')
-        f_out = bz2.open('C:\\Users\Kid\\Desktop\\up\\file.txt.bz', 'w', 9)
+        print('Iniciando compressão zlib...')
+        f_in = open(askopenfilename(), 'rb')
+        f_out = bz2.open('C:\\Users\Kid\\Desktop\\up\\Archive.bz', 'w', 9)
         f_out.writelines(f_in)
         f_out.close()
         f_in.close()
         print('Compressao zlib aplicada...')
+        return  f_out
 
-def main (transmissao=None, gzipcomp=NetworkTest):
+def main (transmissao=None, gzipcomp=None, zlibcomp=None):
 
     print ('Realizando testes na rede...')
 
@@ -45,13 +48,13 @@ def main (transmissao=None, gzipcomp=NetworkTest):
     print (lista[1])
     test = float(lista[1])
 
-    if test < 60:
-        c = threading.Thread(name='gzipcomp', target=gzipcomp())
+    if test < 65:
+        c = threading.Thread(name='gzipcomp', target=NetworkTest.gzipcomp())
         print (threading.currentThread().getName() , 'Starting')
         time.sleep(2)
         print('Compressao de nivel 1 aplicada...')
     else:
-        z = threading.Thread(name='zlibcomp', target=zlibcomp())
+        z = threading.Thread(name='zlibcomp', target=NetworkTest.zlibcomp())
         print (threading.currentThread().getName(), 'Starting')
         time.sleep(2)
         print('Compressao de nivel 2 aplicada...')

@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f7f7f7;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+}
+
+
+
+/* This is a comment in CSS! */
+
+h1, h2, p {
+  color: DarkSlateGray;
+}
+
+p {
+  font-size: 18px;
+}
+
+* {
+  font-family: Georgia;
+}
+
+
+ul {
+  color: #444444;
+  font-family: 'Calibri', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
+
+ol {
+  color: #444444;
+  font-family: 'Calibri', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
+
+.container {
+  left margin: 10;
+  padding: 10;
+  width: 25%;
+}
+
+p {
+  color: #444444;
+  line-height: 32px;
+  font-family: 'Calibri', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}

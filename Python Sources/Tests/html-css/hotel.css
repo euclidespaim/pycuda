@@ -47,11 +47,12 @@ p {
 }
 
 .hotel {
+  border: 2px solid #FFF;
   margin: 60px auto;
   padding: 10px 0px 0px 0px;
   width: 90%;
+  border-radius: 10px;
 }
-
 .hotel-img {
   display: inline-block;
   margin-top: 20px;

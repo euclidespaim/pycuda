@@ -1,21 +1,20 @@
-body {
-  padding: 0;
+html, body {
   margin: 0;
-  background: #f7f7f7;
-  /* Old browsers */
-  background: -moz-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  padding: 0;
 }
 
 
+.header {
+  background-color: #999;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+}
 
-/* This is a comment in CSS! */
-
-h1, h2, p {
+.main {
+  background-color: #05A8AA;
   color: DarkSlateGray;
+  text-align: center;
 }
 
 p {
@@ -26,6 +25,16 @@ p {
   font-family: Georgia;
 }
 
+.container {
+  left margin: 10;
+  padding: 10;
+  width: 25%;
+  align-content: center;
+}
+
+.col {
+  text-align: center;
+}
 
 ul {
   color: #444444;
@@ -41,12 +50,6 @@ ol {
   margin: 0 auto;
   padding: 0;
   width: 90%;
-}
-
-.container {
-  left margin: 10;
-  padding: 10;
-  width: 25%;
 }
 
 p {

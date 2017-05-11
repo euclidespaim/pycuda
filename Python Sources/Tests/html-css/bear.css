@@ -3,20 +3,22 @@ html, body {
   padding: 0;
 }
 
-
 .header {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
   background-size: cover;
-  background-position: bottom center;
-  height: 500px;
+  background-position: center;
+  height: 400px;
   text-align: center;
   font-size: 30px;
+  color: white;
 }
 
 .main {
   background-color: #05A8AA;
   color: DarkSlateGray;
-  text-align: center;
+  padding: 1%;
+  position: center;
+  text-align: left;
 }
 
 * {
@@ -27,37 +29,17 @@ html, body {
 h1 {
   font-family: cursive;
   font-size: 40px;
-  color: DarkSlateGray;
+  color: WhiteSlateGray;
 }
 
 p {
-  text-decoration: underline;
-  color: blue;
+  font-style: oblique;
 }
 
 .container {
-  margin: 0 auto;
+  margin: auto;
   padding: 40px;
   text-align: center;
-  width: 90%;
-}
-
-.col {
-
-}
-
-ul {
-  color: #444444;
-  font-family: 'Calibri', sans-serif;
-  margin: 0 auto;
-  padding: 0;
-  width: 90%;
-}
-
-ol {
-  color: #444444;
-  font-family: 'Calibri', sans-serif;
-  margin: 0 auto;
-  padding: 0;
-  width: 90%;
+  align-items: center;
+  width: 100%;
 }

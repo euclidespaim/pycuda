@@ -8,7 +8,6 @@ from tkinter.filedialog import askopenfilename
 
 
 def gzipcomp():
-
     f_in = open(askopenfilename(), 'rb')
     f_out = gzip.open('C:\\Users\Kid\\Desktop\\up\\myarchive.gz', 'wb', 9)
     f_out.writelines(f_in)

@@ -1,8 +1,10 @@
+import boto3
 import gzip
 import bz2
 import zlib
 import subprocess
 import re
+import mritopng
 import threading
 import time
 from tkinter.filedialog import *
@@ -30,14 +32,16 @@ class switch(object):
 
 class NetworkTest(object):
 
+    """"Testa a qualidade da rede e retira o valor de upload da lista"""
     def transmissao():
         print("Testando transmissao...")
         downl = str(subprocess.getoutput('speedtest-cli --simple'))
         print (downl)
-        '''extract numbers from a string'''
+        # Extrai upload da lista
         down = (re.findall(r"[+-]? *(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?", downl))
 
         return down
+
 
     def gzipcomp():
         try:
@@ -98,6 +102,31 @@ def main (transmissao=None, gzipcomp=None, zlibcomp=None):
             time.sleep(2)
             print('Compressao de nivel 3 aplicada...')
             break
+
+        if case(2):
+            mritopng.main()
+            print (threading.currentThread().getName(), 'Starting')
+            time.sleep(2)
+            print('Compressao de nivel 4 aplicada...')
+            break
+
+    #Publica no Topico
+    client = boto3.client('sns')
+
+    response = client.publish(
+        TopicArn='arn:aws:sns:us-east-1:726298423571:DICOM',
+        Message='Img .dcm ',
+        Subject= 'Enviando img DICOM',
+    #   MessageStructure='',
+        MessageAttributes={
+             'Binary': {
+                'DataType': 'binary',
+         #       'StringValue': 'String',
+            }
+        }
+    )
+
+
 
 if __name__ == '__main__':
     main()

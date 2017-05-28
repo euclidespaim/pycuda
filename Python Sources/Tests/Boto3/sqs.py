@@ -15,9 +15,3 @@ response = client.receive_message(
   #  ReceiveRequestAttemptId='string'
 )
 print(response)
-
-
-response = client.delete_message(
-    QueueUrl='https://sqs.us-east-1.amazonaws.com/726298423571/Kid-Queue',
-    ReceiptHandle= 
-)

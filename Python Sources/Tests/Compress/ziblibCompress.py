@@ -24,4 +24,4 @@ def make_zipfile(output_filename, source_dir):
     print('Compressao gzip aplicada...')
     print('Tempo de compressão: ', fim-ini)
 
-make_zipfile('C:\\Users\Kid\\Desktop\\down\\myZipfile.zip', 'C:\\Users\Kid\\Desktop\\up')
+make_zipfile('C:\\Users\Kid\\Desktop\\up', 'C:\\Users\Kid\\Desktop\\down\\dicom.gz')

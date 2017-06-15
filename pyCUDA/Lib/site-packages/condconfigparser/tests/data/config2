@@ -1,0 +1,8 @@
+{ variable1 = \
+   (False or ("aa" == "bb") or ["this", "is", "it"] or "x" in []) == \
+   ("abc" in [True, False, "abc"] and
+    ["this", "is", "it"])
+
+  variable2 = (not (["a"] and "blabla")) == ("abc" and False) and "Yup, dude"
+  variable3 = (not (["a"] and "blabla")) != ("abc" and True) and "Good!"
+}

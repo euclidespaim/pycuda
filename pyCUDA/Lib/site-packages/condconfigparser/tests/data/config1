@@ -1,0 +1,54 @@
+{ a = ["def", "ghi"]
+  # The expression for 'b' contains 3 variables (2 external). Its
+  # evaluation will return a nested list.
+  b = [True, "jkl", aircraft, a, airport]
+  c = parking == "XYZ0" and "ufo" in b
+  d = (parking == "XYZ0") and ("ufo" in b) # same thing
+  e = c == d # e will always evaluate to True
+
+  custom_start_pos = True
+  foobar = False and "abc"
+  baz = [aircraft, "strange\tstring\nwith \
+                    many escape sequences",
+         ["list", "inside", "a", "list"]] or not ["bla"]
+  zod = \
+  [True, "you", "may", "reference", "baz", "from here"] and \
+  (a or b)
+  blabla = zod # ["pouet"]
+}
+
+--common-options
+--another-one     # with a comment
+# Option starting with a [ followed by a space
+\[ spaces at the end of the line need escaping like this: \ # easy!
+--normal-option=value
+
+[ custom_start_pos and (airport == "KSFO" or
+                        (scenarios == ["nimitz_demo",
+                                       "clemenceau_demo",
+                                       "balloon_demo"]
+                         or "wingman_demo" in scenarios
+                         and aircraft != "777-200ER"))
+]
+--lon=5.12358614
+# blabla
+--lat=40.1654116
+
+# bla
+[ custom_start_pos and
+  (aircraft == "c172p"          # comment
+   or foobar == "may contain # characters as well as \" (escaped)" # comment
+   and not airport == "LFPO") ] # other comment
+--com1=120.70
+--com2=122.45                   # comment
+--weird-option=this is a \# character   # and this is a comment
+
+[ blabla == zod and ["list", "inside", "a", "list"] in baz and
+  baz == [aircraft, "strange\tstring\nwith \
+                    many escape sequences",
+         ["list", "inside", "a", "list"]] ] #bla
+--ouin-ouin=argh
+--re-ouin=\ \[\]\# pouet # et ouais
+
+[ not e ]
+--oh no!

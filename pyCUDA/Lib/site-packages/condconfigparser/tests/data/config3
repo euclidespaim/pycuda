@@ -1,0 +1,17 @@
+{ some_variable = other_variable or \
+                  another_one or \
+                  "value used if 'other_variable' and 'another_one' \
+are both false in boolean context"
+
+  var = ["with", "opening", "delimiters", "such", "as",
+         "[", "and", "(", "this", "is", "not", "necessary."]
+  var2 = (example     or
+          with        and # 'example', 'with' and 'parentheses'
+          parentheses)    # are variable references here!
+}
+
+[ var and
+  not var2 ]   # split predicate
+Exception: raw configuration lines are so "raw" that handling comments and \
+continuation lines is up to the user application. Therefore, we have THREE
+raw configuration lines here, the first of which ends with a backslash.

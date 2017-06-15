@@ -16,10 +16,6 @@ p {
   margin: 0 auto;
 }
 
-ul {
-    padding: 0;
-}
-
 .navigation {
   background-color: rgba(255, 255, 255, 0.9);
   overflow-y: auto;
@@ -48,18 +44,18 @@ li {
 #logo {
   color: #FCA311;
   font-family: 'Amatic SC', cursive;
-  font-size: 30px;
-  padding: 0px 30px;
+  font-size: 31px;
+  padding: 0px 40px;
 }
 
 ul, menu, dir {
     display: block;
     list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
+    -webkit-padding-start: 20px;
 }
 
 /* Main */

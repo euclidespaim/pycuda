@@ -16,6 +16,52 @@ p {
   margin: 0 auto;
 }
 
+ul {
+    padding: 0;
+}
+
+.navigation {
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 12px 18px;
+  text-transform: uppercase;
+}
+
+#logo {
+  color: #FCA311;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  padding: 0px 30px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
 /* Main */
 .main {
   text-align: center;

@@ -269,15 +269,16 @@ ul, menu, dir {
 
 .feature .col-sm-12 {
   position: relative;
-  top: 100px;
-  padding:50px;
+  top: 10px;
+  padding: 10px 0px 10px;
+  font-size: 20px;
 }
 
 .feature h2 {
   color: #fff;
   font-size: 40px;
   margin:0;
-  padding:50px 0 0;
+  padding: 20px 0px 50px;
 }
 
 /* Footer */

@@ -18,8 +18,10 @@ for x in range(100) :
 
 # Import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
-# plt.style.use('ggplot')
-plt.style.use('presentation')
+
+# Change plt styles
+plt.style.use('ggplot')
+
 
 # Plot random_walk
 plt.plot(random_walk)

@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Change plt styles
+# Change plt styles...
 plt.style.use('ggplot')
 
 np.random.seed(123)

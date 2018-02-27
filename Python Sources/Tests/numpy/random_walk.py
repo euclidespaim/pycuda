@@ -19,7 +19,7 @@ for x in range(100) :
 # Import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
 
-# Change plt styles
+# Change plt styles...
 plt.style.use('ggplot')
 
 
